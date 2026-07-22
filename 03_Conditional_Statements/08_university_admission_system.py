@@ -1,11 +1,10 @@
 print("Select Your Qualification")
 print("1. Intermediate")
 print("2. Diploma (Lateral Entry)")
-admission = int(input("Enter your choice: "))
+admission =int(input("Enter your choice: "))
 
 if admission == 1:
-
-    print("Available Courses")
+    print("Eligible Courses")
     print("1. B.Tech CSE")
     print("2. B.Tech AIML")
     print("3. B.Tech ECE")
@@ -29,7 +28,7 @@ if admission == 1:
         course_name = "B.Tech Mechanical"
     else:
         print("Invalid Course")
-        course_name = "None"
+        course_name = ""
 
     fee = 200000
     duration = 4
@@ -60,7 +59,7 @@ elif admission == 2:
         course_name = "B.Tech Mechanical"
     else:
         print("Invalid Course")
-        course_name = "None"
+        course_name = ""
 
     fee = 150000
     duration = 3
